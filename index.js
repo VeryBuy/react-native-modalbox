@@ -387,9 +387,14 @@ var ModalBox = createReactClass({
     let newState = {};
     if (height !== this.state.height) newState.height = height;
     if (width !== this.state.width) newState.width = width;
-    this.setState(newState);
+    this.setState(newState, () => {
+      if (this.onViewLayoutCalculated) {
+        setTimeout(
+          this.onViewLayoutCalculated,
+        0);
+      }
+    });
 
-    if (this.onViewLayoutCalculated) this.onViewLayoutCalculated();
   },
 
   /*
