@@ -25,7 +25,7 @@ var screen = Dimensions.get('window');
 var styles = StyleSheet.create({
 
   wrapper: {
-    backgroundColor: "white"
+    backgroundColor: "transparent"
   },
 
   transparent: {
