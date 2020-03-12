@@ -8,13 +8,15 @@ import {
   Easing,
   BackHandler as BackButton,
   Platform,
-  Modal,
   Keyboard,
   PanResponderInstance,
   StyleProp,
   ViewStyle,
   Dimensions
 } from "react-native";
+
+import Modal from "./Modal";
+
 import { EasingFunction } from "react-native-animatable";
 
 interface Props {
