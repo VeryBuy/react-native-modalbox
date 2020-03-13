@@ -30,5 +30,8 @@
   "dependencies": {
     "create-react-class": "^15.6.0",
     "prop-types": "^15.5.10"
+  },
+  "peerDependencies": {
+    "modal-enhanced-react-native-web": "^0.2.0"
   }
 }
