@@ -603,6 +603,7 @@ export default class ModalBox extends Component<Props, States> {
         transparent
         visible={visible}
         hardwareAccelerated
+        {...(Platform.OS === "web" ? { style: { margin: 0 } } : {})}
       >
         {content}
       </Modal>
