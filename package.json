@@ -32,6 +32,6 @@
     "prop-types": "^15.5.10"
   },
   "peerDependencies": {
-    "modal-react-native-web": "^0.2.0"
+    "modal-enhanced-react-native-web": "^0.2.0"
   }
 }
